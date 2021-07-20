@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-remote
+['remote "dvc-remote"']
+    url = G:/10_academy/Week_2/solutions/temp
