@@ -81,7 +81,7 @@ querystring-parser==1.2.4
 regex==2021.4.4
 requests==2.26.0
 rich==10.6.0
-ruamel.yaml==0.17.10
+ruamel.yaml==0.2.6
 ruamel.yaml.clib==2.0
 scripts==0.1.0
 shortuuid==1.0.1
