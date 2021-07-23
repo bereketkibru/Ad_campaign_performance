@@ -29,7 +29,7 @@ if __name__=="__main__":
     np.random.seed(40)
 
     #read the data
-    data=pd.read_csv(data_url,sep=",")
+    data=pd.read_csv(data_url   ,sep=",")
 
     #log data params
     mlflow.log_param('data_url',data_url)
