@@ -36,4 +36,6 @@ if __name__=="__main__":
     mlflow.log_param('data_version',version)
     mlflow.log_param('input_rows',data.shape[0])
     mlflow.log_param('input_cols',data.shape[1])
+
+    print(data.head(1))
     
