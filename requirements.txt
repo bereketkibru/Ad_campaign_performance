@@ -79,7 +79,7 @@ pytz==2019.2
 PyYAML==5.4.1
 querystring-parser==1.2.4
 regex==2021.4.4
-requests==2.26.0
+requests==10.6.0
 rich==0.17.10
 ruamel.yaml==0.2.6
 ruamel.yaml.clib==2.0
