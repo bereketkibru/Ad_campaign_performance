@@ -2,18 +2,15 @@
 from numpy.lib.function_base import median
 import pandas as pd
 import numpy as np
-# from sklearn.metrics import mean_squared_error,mean_absolute_error, r2_score
-# from sklearn.model_selection import train_test_split
-# from sklearn.linear_model import ElasticNet
 from urllib.parse import urlparse
 import mlflow
-# import mlflow.sklearn
+
 
 # Get url from Dvc
 import dvc.api
 path = 'data/AdSmartABdata.csv'
-repo = 'G:/10_academy/Week_2/solutions/Ad_campaign_performance'
-version = 'v1'
+repo = '        '
+version = 'v4'
 
 data_url = dvc.api.get_url(
     path= path,
