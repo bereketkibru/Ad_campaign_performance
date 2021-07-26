@@ -20,3 +20,7 @@ As a Machine learning engineer in SmartAd, one of my tasks is to design a reliab
 # Scripts
     * split_browser.py: simple script to load the right version of the data and drop the browser column and save the data.
     * split_paltform.py: simple script to load the right version of the data and drop the platform_os column and save the data.
+# Install
+    git clone https://github.com/bereketkibru/Ad_campaign_performance.git
+    cd Ad_campaign_performance
+    py setup.py install 
